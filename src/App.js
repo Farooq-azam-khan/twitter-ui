@@ -13,16 +13,16 @@ function App() {
       <section className="lg:w-6/12 flex-grow bg-blue-800">
         <Home />
       </section>
-      <nav className="block md:hidden w-full flex items-center justify-between px-3 py-2 bg-blue-800 border-t border-gray-500">
+      <nav className="md:hidden w-full flex items-center justify-between px-3 py-2 bg-blue-800 border-t border-gray-500">
         <Link to="#">icon</Link>
         <Link to="#">icon</Link>
         <Link to='#'>icon</Link>
         <Link to="#">icon</Link>
       </nav>
-      <aside className="hidden lg:block lg:w-3/12 flex flex-col space-y-3 h-full border-l border-blue-400 px-4 py-2 bg-blue-900">
+      <aside className="hidden lg:w-3/12 lg:flex flex-col space-y-3 h-full border-l px-4 py-2 bg-blue-900">
         <div className="relative mt-2">
-          <input class="w-full pl-8 pr-3 rounded-full bg-blue-800 text-gray-600 font-semibold h-8 text-md" placeholder="Search" />
-          <span className="absolute inset-0 flex items-center px-2 text-gray-600"><Icons.SearchOutline className="w-7 h-7" /></span>
+          <input className="w-full pl-8 pr-3 rounded-full bg-blue-800 font-semibold h-8 text-md" placeholder="Search" />
+          <span className="absolute inset-0 flex items-center px-2 text-gray-300"><Icons.SearchOutline className="w-7 h-7" /></span>
         </div>
         <div className="flex flex-col space-y-3 overflow-auto">
           <WhatHappening />
