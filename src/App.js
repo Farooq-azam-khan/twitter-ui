@@ -58,7 +58,7 @@ const Home = () => {
   </div>)
 }
 const NavbarMD = () => {
-  return (<nav class="overflow-auto hidden md:flex flex-col space-y-1 items-end py-5 px-5 lg:w-3/12 justify-between space-y-3 bg-blue-900 h-full md:pl-8 md:pr-4">
+  return (<nav className="overflow-auto hidden md:flex flex-col space-y-1 items-end py-5 px-5 lg:w-3/12 justify-between space-y-3 bg-blue-900 h-full md:pl-8 md:pr-4">
     <Link to="#" className="hover:bg-blue-600 rounded-full p-2"><Icons.FireOutline className="w-10 h-10" /></Link>
     <Link to="#" className="hover:bg-blue-600 rounded-full p-2"><Icons.Home className="w-8 h-8" /></Link>
     <Link to="#" className="hover:bg-blue-600 rounded-full p-2"><Icons.HashtagOutline className="w-8 h-8" /></Link>
